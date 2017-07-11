@@ -11,9 +11,11 @@ A common application are Credit Rating migrations.
 Example 1
 ---------
 
-Fitch Sovereign Ratings
+Data Source "Fitch Sovereign Ratings":
+
 * [from Fitch directly](https://www.fitchratings.com/web_content/ratings/sovereign_ratings_history.xls)
 * [mirror from dropbox](https://www.dropbox.com/s/phoqbg7p8rpr3bz/sovereign_ratings_history.xls?dl=1)
+
 
 
 load the example data
@@ -59,7 +61,6 @@ check the results
     s2 = np.dot(s, trans_mat);
     print(np.r_[s, s2].round(3))
 
-    
     
 
 
