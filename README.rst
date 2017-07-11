@@ -13,8 +13,8 @@ Example 1
 
 Data Source "Fitch Sovereign Ratings":
 
-* [from Fitch directly](https://www.fitchratings.com/web_content/ratings/sovereign_ratings_history.xls)
-* [mirror from dropbox](https://www.dropbox.com/s/phoqbg7p8rpr3bz/sovereign_ratings_history.xls?dl=1)
+* .. _from-Fitch-directly: https://www.fitchratings.com/web_content/ratings/sovereign_ratings_history.xls
+* .. _mirror from dropbox: https://www.dropbox.com/s/phoqbg7p8rpr3bz/sovereign_ratings_history.xls?dl=1
 
 
 
