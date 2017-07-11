@@ -1,3 +1,2 @@
-def emptyfunc():
-    return "nothing here yet"
-
+#__all__ = ['durationmethod']
+#from overgang.durationmethod import *
