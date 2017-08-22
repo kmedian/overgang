@@ -7,6 +7,13 @@ the transitions probability matrix (stochastic matrix).
 A common application are Credit Rating migrations.
 
 
+Installation
+------------
+It's a pip package
+```
+pip install overgang
+```
+
 
 Example 1
 ---------
