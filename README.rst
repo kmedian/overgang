@@ -10,9 +10,9 @@ A common application are Credit Rating migrations.
 Installation
 ------------
 It's a pip package at https://pypi.org/project/overgang/
-```
-pip install overgang
-```
+::
+    pip install overgang
+
 
 
 Example 1
