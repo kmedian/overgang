@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='overgang',
-      version='0.1.1',
+      version='0.1.2',
       description='transition matrix estimation',
       url='http://github.com/ulf1/overgang',
       author='Ulf Hamster',

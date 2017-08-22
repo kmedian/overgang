@@ -1,3 +1,5 @@
-v0.1.1, 2017-08-22 -- dependencies added
+v0.1.2, 2017-08-22 -- dependencies added
+
+v0.1.1, 2017-07-11 -- deleted
 
 v0.1.0, 2017-07-11 -- Initial release.
