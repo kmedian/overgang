@@ -8,5 +8,7 @@ setup(name='overgang',
       author_email='554c46@gmail.com',
       license='MIT',
       packages=['overgang'],
+      install_requires=['numpy', 'datetime', 'scipy'],
+      python_requires='>=3',
       zip_safe=False)
 
