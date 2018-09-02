@@ -99,7 +99,7 @@ def ctmc_generatormatrix2(transcount, statetime, toltime=1e-8):
     # same as "tmp -= np.diag(np.sum(tmp, axis=1))"
     rowsum = np.sum(tmp, axis=1)
     for i in range(n):
-        tmp[i, i] = rowsum[i]
+        tmp[i, i] = -rowsum[i]
 
     # divide transitions counts by the state idle times
     genmat = np.zeros(shape=(n, n), dtype=float)

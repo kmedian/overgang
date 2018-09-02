@@ -25,7 +25,7 @@ def ctmc_datacheck(data, numstates, toltime):
                      "state[{:d}]==state[{:d}]").format(exid, i-1, i))
 
         for i, t in enumerate(times):
-            if i < toltime:
+            if t < toltime:
                 raise Exception(
                     ("The example id={:d} has a state[{:d}] that have not "
                      "been active for longer than toltime").format(exid, i))

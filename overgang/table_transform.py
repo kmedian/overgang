@@ -17,7 +17,7 @@ def yearfrac(a, b):
     return (b.year - a.year) + diff_days / days_of_yr_b
 
 
-def table_transform(data):
+def table_transform(data, lastdate=None):
     """Transforms array/list to internal data format
 
     Parameters:
@@ -31,7 +31,8 @@ def table_transform(data):
     """
     import numpy as np
 
-    lastdate = np.max(data[:, 1])
+    if lastdate is None:
+        lastdate = np.max(data[:, 1])
 
     newdata = list()
 
