@@ -1,8 +1,9 @@
 
-# overgang -- Transition probability estimation
+# overgang -- Markov Models
 
-The overgang package includes the Duration Method to estimate 
-the transitions probability matrix (stochastic matrix).
+The package includes 
+
+* Continous-Time Markov model `ctmc_fit`
 
 
 ### Installation
