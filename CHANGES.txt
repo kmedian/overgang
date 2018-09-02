@@ -1,3 +1,7 @@
+
+
+v0.2.0, 2018-08-31 -- repo moved to kmedian org, flake8 check, old code refactored to ctmc_fit, example removed, examples as notebooks
+
 v0.1.2, 2017-08-22 -- dependencies added
 
 v0.1.1, 2017-07-11 -- deleted
