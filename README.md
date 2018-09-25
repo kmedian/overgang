@@ -1,18 +1,11 @@
+# deprecated package
+The package `overgang` has been deprecated.
 
-# overgang -- Markov Models
+* The last working version is `pip install overgang==0.2.1`
+* The old source code is archived at [github](https://github.com/kmedian/overgang)
 
-The package includes 
+The package has been refactored as `ctmc`
 
-* Continous-Time Markov model `ctmc_fit`
-
-
-### Installation
-
-It's a pip package at https://pypi.org/project/overgang/
 ```
-pip install overgang
+pip install ctmc
 ```
-
-
-### Examples
-Check the [examples](examples) folder for notebooks.

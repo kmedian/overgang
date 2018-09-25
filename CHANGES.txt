@@ -1,4 +1,6 @@
 
+v0.3.0, 2018-09-21 -- Package deprecated
+
 v0.2.1, 2018-09-02 -- Bug fixes in ctmc_fit
 v0.2.0, 2018-08-31 -- repo moved to kmedian org, flake8 check, old code refactored to ctmc_fit, example removed, examples as notebooks
 
